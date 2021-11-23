@@ -14,8 +14,9 @@ nav ul li a {
 }
 
 .header-name {
-    background-color: #141414;
+    background-image: url('../images/background.jpg');
     padding: 100px;
     font-size: 50px;
     color: white;
+    background-position: 0px -70px;
 }
