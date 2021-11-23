@@ -1,7 +1,21 @@
-nav ul li {
-    display: inline;
+body {
+    font-family: verdana;
+    background-color: #F3F3F3;
 }
 
-h1 {
-    background-image: url("resources\images\scenary.jpg");
+nav ul li {
+    display: inline;
+    padding: 8px;
+    background-color: #1B1B1B;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.header-name {
+    background-color: #141414;
+    padding: 100px;
+    font-size: 50px;
+    color: white;
 }
