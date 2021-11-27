@@ -3,14 +3,23 @@ body {
     background-color: #F3F3F3;
 }
 
-nav ul li {
+nav ul .navlist {
     display: inline;
     padding: 8px;
     background-color: #1B1B1B;
+    border-radius: 10px;
 }
 
-nav ul li a {
+nav ul .navlist:hover {
+    background-color: white;
+}
+
+nav ul .navlist a {
     color: white;
+}
+
+nav ul .navlist a:hover {
+    color: #1B1B1B;
 }
 
 .header-name {
