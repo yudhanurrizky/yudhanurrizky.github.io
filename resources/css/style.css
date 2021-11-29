@@ -3,11 +3,15 @@ body {
     background-color: #F3F3F3;
 }
 
+nav {
+    background-color: black;
+    padding: 1px;
+    margin-bottom: 0px;
+}
+
 nav ul .navlist {
     display: inline;
     padding: 8px;
-    background-color: #1B1B1B;
-    border-radius: 10px;
 }
 
 nav ul .navlist:hover {
@@ -28,4 +32,5 @@ nav ul .navlist a:hover {
     font-size: 50px;
     color: white;
     background-position: 0px -70px;
+    margin-top: 0px;
 }
