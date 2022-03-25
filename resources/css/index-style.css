@@ -19,22 +19,74 @@ body {
 
 /* PORTFOLIO PROJECTS */
 
-/* .project-button {
-    text-decoration: none;
-    border: 1px solid black;
-    padding: 8px;
-    border-radius: 10px;
-    margin: 5px;
-    background-color: black;
-    color: white;
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    margin: 2.2em 0 2.2em 0;
 }
 
-.project-button:hover {
-    font-size: 18px;
-    transition: font-size .1s ease-in;
-} */
+.portfolio h2 {
+    text-align: center;
+    font-size: 2.2em;
+}
 
-.container img {
-    width: 30%;
+.portfolio .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.portfolio .card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid black;
+    height: 18em;
+    width: 23em;
+    margin-top: 2em;
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.portfolio .card:hover {
+    opacity: 0.5;
+}
+
+.portfolio h3 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+}
+
+.portfolio a {
+    text-decoration: none;
+}
+
+.portfolio .dasmoto {
+    background-image: url(/resources/images/portfolio-sites/dasmoto.png);
+    background-position: 0%;
+}
+
+.portfolio .excursion {
+    background-image: url(/resources/images/portfolio-sites/excursion.png);
+}
+
+.portfolio .tea-cozy {
+    background-image: url(/resources/images/portfolio-sites/tea-cozy.png);
+}
+
+.portfolio .company {
+    background-image: url(/resources/images/portfolio-sites/company.png);
+}
+
+.portfolio .club {
+    background-image: url(/resources/images/portfolio-sites/club.png);
+}
+
+.portfolio img {
+    width: 40%;
     height: auto;
 }
