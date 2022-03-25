@@ -1,0 +1,22 @@
+nav {
+    background-color: black;
+    padding: 1px;
+    margin-bottom: 0px;
+}
+
+nav ul .navlist {
+    display: inline;
+    padding: 8px;
+}
+
+nav ul .navlist:hover {
+    background-color: white;
+}
+
+nav ul .navlist a {
+    color: white;
+}
+
+nav ul .navlist a:hover {
+    color: #1B1B1B;
+}

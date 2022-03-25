@@ -1,31 +1,12 @@
+/* ALL */
+
 body {
     font-family: verdana;
     background-color: #F3F3F3;
 }
 
-nav {
-    background-color: black;
-    padding: 1px;
-    margin-bottom: 0px;
-}
 
-nav ul .navlist {
-    display: inline;
-    padding: 8px;
-}
-
-nav ul .navlist:hover {
-    background-color: white;
-}
-
-nav ul .navlist a {
-    color: white;
-}
-
-nav ul .navlist a:hover {
-    color: #1B1B1B;
-}
-
+/* BANNER */
 .header-name {
     background-image: url('../images/background.jpg');
     padding: 100px;
@@ -34,6 +15,9 @@ nav ul .navlist a:hover {
     background-position: 0px -70px;
     margin-top: 0px;
 }
+
+
+/* PORTFOLIO PROJECTS */
 
 .button {
     text-decoration: none;
