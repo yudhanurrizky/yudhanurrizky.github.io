@@ -19,7 +19,7 @@ body {
 
 /* PORTFOLIO PROJECTS */
 
-.button {
+.project-button {
     text-decoration: none;
     border: 1px solid black;
     padding: 8px;
@@ -29,7 +29,7 @@ body {
     color: white;
 }
 
-.button:hover {
+.project-button:hover {
     font-size: 18px;
     transition: font-size .1s ease-in;
 }

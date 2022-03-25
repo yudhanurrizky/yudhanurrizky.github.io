@@ -1,4 +1,4 @@
-nav {
+/* nav {
     background-color: black;
     padding: 1px;
     margin-bottom: 0px;
@@ -19,4 +19,23 @@ nav ul .navlist a {
 
 nav ul .navlist a:hover {
     color: #1B1B1B;
+} */
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: stretch;
+    text-align: center;
+}
+
+.nav-button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    color: black;
+    background-color: white;
 }
