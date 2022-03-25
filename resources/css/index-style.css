@@ -16,6 +16,12 @@ body {
     margin-top: 0px;
 }
 
+@media screen and (max-device-width: 480px) {
+    .header-name {
+        font-size: 7em;
+    }
+}
+
 
 /* PORTFOLIO PROJECTS */
 
