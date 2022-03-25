@@ -66,24 +66,24 @@ body {
 }
 
 .portfolio .dasmoto {
-    background-image: url(/resources/images/portfolio-sites/dasmoto.png);
+    background-image: url(../images/portfolio-sites/dasmoto.png);
     background-position: 0%;
 }
 
 .portfolio .excursion {
-    background-image: url(/resources/images/portfolio-sites/excursion.png);
+    background-image: url(../images/portfolio-sites/excursion.png);
 }
 
 .portfolio .tea-cozy {
-    background-image: url(/resources/images/portfolio-sites/tea-cozy.png);
+    background-image: url(../images/portfolio-sites/tea-cozy.png);
 }
 
 .portfolio .company {
-    background-image: url(/resources/images/portfolio-sites/company.png);
+    background-image: url(../images/portfolio-sites/company.png);
 }
 
 .portfolio .club {
-    background-image: url(/resources/images/portfolio-sites/club.png);
+    background-image: url(../images/portfolio-sites/club.png);
 }
 
 .portfolio img {
