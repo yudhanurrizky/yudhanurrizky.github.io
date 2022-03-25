@@ -90,3 +90,20 @@ body {
     width: 40%;
     height: auto;
 }
+
+@media screen and (max-device-width: 480px) {
+    .portfolio .container {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .portfolio .card {
+        height: 35em;
+        width: 40em;
+    }
+
+    .portfolio h3 {
+        font-size: 2.5em;
+    }
+}
