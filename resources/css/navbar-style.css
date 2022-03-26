@@ -1,6 +1,6 @@
 .navbar {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     justify-items: stretch;
     text-align: center;
@@ -21,7 +21,7 @@
 @media screen and (max-device-width: 480px) {
     .navbar {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         font-size: 2em;
     }
 }
