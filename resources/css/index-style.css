@@ -74,12 +74,19 @@ body {
     text-decoration: none;
 }
 
-.portfolio p {
+.portfolio .more-info {
     text-align: center;
     color: white;
     border-radius: 10px;
     margin-top: 1%;
     background-color: black;
+}
+
+.portfolio .info {
+    background-color: black;
+    color: white;
+    padding: 5%;
+    display: none;
 }
 
 .portfolio .dasmoto {
