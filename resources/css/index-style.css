@@ -126,3 +126,18 @@ body {
         font-size: 2.5em;
     }
 }
+
+
+/* GIF */
+.gif-button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    border-radius: 20px;
+    font-size: 2em;
+}
+
+.gif {
+    display: none;
+}
